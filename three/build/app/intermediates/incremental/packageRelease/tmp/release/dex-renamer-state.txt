@@ -1,4 +1,4 @@
-#Mon Mar 31 21:58:22 WIB 2025
-base.0=C\:\\Users\\ASUS\\Desktop\\three\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+#Tue Apr 01 21:46:00 WIB 2025
+base.0=C\:\\AAATugas\\Coding\\flutter\\three\\three\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

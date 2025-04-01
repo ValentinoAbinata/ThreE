@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:C:\Users\ASUS\Desktop\three\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-      jars="C:\Users\ASUS\Desktop\three\build\app\intermediates\flutter\release\libs.jar"
-      resolved="__local_aars__:C:\Users\ASUS\Desktop\three\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
+      name="__local_aars__:C:\AAATugas\Coding\flutter\three\three\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
+      jars="C:\AAATugas\Coding\flutter\three\three\build\app\intermediates\flutter\release\libs.jar"
+      resolved="__local_aars__:C:\AAATugas\Coding\flutter\three\three\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
-      name="C:\Users\ASUS\Desktop\three\android@@:path_provider_android::release"
-      jars="C:\Users\ASUS\Desktop\three\build\path_provider_android\.transforms\0910c17beb77d17dd520bf7a10913519\transformed\out\jars\classes.jar;C:\Users\ASUS\Desktop\three\build\path_provider_android\.transforms\0910c17beb77d17dd520bf7a10913519\transformed\out\jars\libs\R.jar"
+      name="C:\AAATugas\Coding\flutter\three\three\android@@:path_provider_android::release"
+      jars="C:\AAATugas\Coding\flutter\three\three\build\path_provider_android\.transforms\8974f2d9e2859b47c9e7a480a7a2d313\transformed\out\jars\classes.jar;C:\AAATugas\Coding\flutter\three\three\build\path_provider_android\.transforms\8974f2d9e2859b47c9e7a480a7a2d313\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="C:\Users\ASUS\Desktop\three\build\path_provider_android\.transforms\0910c17beb77d17dd520bf7a10913519\transformed\out"
+      folder="C:\AAATugas\Coding\flutter\three\three\build\path_provider_android\.transforms\8974f2d9e2859b47c9e7a480a7a2d313\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\ASUS\Desktop\three\android@@:sqflite::release"
-      jars="C:\Users\ASUS\Desktop\three\build\sqflite\.transforms\03bb11978b62d4981734d9f55ff55031\transformed\out\jars\classes.jar;C:\Users\ASUS\Desktop\three\build\sqflite\.transforms\03bb11978b62d4981734d9f55ff55031\transformed\out\jars\libs\R.jar"
+      name="C:\AAATugas\Coding\flutter\three\three\android@@:sqflite::release"
+      jars="C:\AAATugas\Coding\flutter\three\three\build\sqflite\.transforms\9cf0a0bd4aca601290c900ab044cee6d\transformed\out\jars\classes.jar;C:\AAATugas\Coding\flutter\three\three\build\sqflite\.transforms\9cf0a0bd4aca601290c900ab044cee6d\transformed\out\jars\libs\R.jar"
       resolved="com.tekartik.sqflite:sqflite:unspecified"
-      folder="C:\Users\ASUS\Desktop\three\build\sqflite\.transforms\03bb11978b62d4981734d9f55ff55031\transformed\out"
+      folder="C:\AAATugas\Coding\flutter\three\three\build\sqflite\.transforms\9cf0a0bd4aca601290c900ab044cee6d\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

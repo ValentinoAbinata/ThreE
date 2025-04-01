@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.three.app-mergeReleaseResources-9:/values/values.xml",
+            "outputFile": "com.example.three.app-mergeReleaseResources-5:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\Desktop\\three\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\AAATugas\\Coding\\flutter\\three\\three\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
