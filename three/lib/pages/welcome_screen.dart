@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -10,8 +11,8 @@ class WelcomeScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand, // Agar background penuh
         children: [
-          Image.asset(
-            'assets/images/ThreE_WelcomeScreen.jpg',
+          SvgPicture.asset(
+            'assets/images/ThreE_WelcomeScreen.svg', 
             fit: BoxFit.contain,
           ),
 
