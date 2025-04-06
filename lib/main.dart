@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ThreE',
+      title: 'Threee',
       debugShowCheckedModeBanner: false,
       initialRoute: '/', // Awal di Welcome Screen
       routes: {

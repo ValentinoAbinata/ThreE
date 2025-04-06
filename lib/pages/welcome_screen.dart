@@ -7,37 +7,36 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(237, 236, 232, 1.0),
+      backgroundColor: Color.fromRGBO(150, 154, 88, 1.0),
       body: Stack(
         fit: StackFit.expand, // Agar background penuh
         children: [
           SvgPicture.asset(
             'assets/images/Threee.svg', 
-            fit: BoxFit.contain,
+            fit: BoxFit.contain, // test maybe need some work
           ),
 
           // Button "Next"
           Positioned(
-            bottom: 50, // Jarak dari bawah
+            bottom: 50,
             left: 0,
             right: 0,
             child: Center(
               child: ElevatedButton(
                 onPressed: () {
-                  // Pindah ke halaman berikutnya
                   Navigator.pushReplacementNamed(context, '/my_home_page');
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue, // Warna tombol
+                  backgroundColor: Color.fromRGBO(98, 67, 36, 1.0), // Warna tombol
                   padding: const EdgeInsets.symmetric(
-                      horizontal: 30, vertical: 15), // Ukuran tombol
+                      horizontal: 90, vertical: 15), // Ukuran tombol
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30), // Tombol bulat
                   ),
                 ),
                 child: const Text(
                   "Next",
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
                 ),
               ),
             ),
