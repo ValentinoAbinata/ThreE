@@ -21,17 +21,19 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
 
 // Fade ke MyHomePage
   Route _createFadeRoute() {
-  return PageRouteBuilder(
-    pageBuilder: (context, animation, secondaryAnimation) => const MyHomePage(),
-    transitionsBuilder: (context, animation, secondaryAnimation, child) {
-      return FadeTransition( // ganti ini untuk mengganti style
-        opacity: animation,
-        child: child,
-      );
-    },
-    transitionDuration: const Duration(milliseconds: 800),
-  );
-}
+    return PageRouteBuilder(
+      pageBuilder: (context, animation, secondaryAnimation) =>
+          const MyHomePage(),
+      transitionsBuilder: (context, animation, secondaryAnimation, child) {
+        return FadeTransition(
+          // ganti ini untuk mengganti style
+          opacity: animation,
+          child: child,
+        );
+      },
+      transitionDuration: const Duration(milliseconds: 800),
+    );
+  }
 
 // isi scaffold
   @override
@@ -41,8 +43,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
       body: Center(
         child: SvgPicture.asset(
           'assets/images/Threee.svg',
-          width: double.infinity,
-          height: double.infinity,
+          width: MediaQuery.of(context).size.width,
+          height: MediaQuery.of(context).size.height,
           fit: BoxFit.contain, // test maybe need some work
         ),
       ),
