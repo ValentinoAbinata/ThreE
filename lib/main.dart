@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'pages/my_home_page.dart';
 import 'pages/welcome_screen.dart';
-import 'pages/ztest.dart';
-import 'pages/zesvege.dart';
+import 'pages/form_create.dart';
+import 'pages/ztest.dart'; // test
+import 'pages/zesvege.dart'; // test
 
 void main() {
   runApp(const MyApp());
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const WelcomeScreen(),
         '/my_home_page': (context) => const MyHomePage(),
+        '/form_create': (context) => const FormCreate(),
         '/test' : (context) => const Ztest(), // test
         '/esvege' : (context) => const Zesvege(), // test
       },

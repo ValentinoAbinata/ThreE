@@ -1,91 +1,62 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/cupertino.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class FormCreate extends StatefulWidget {
+  const FormCreate({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<FormCreate> createState() => _FormCreateState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _FormCreateState extends State<FormCreate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: CupertinoColors.systemGrey6,
-        appBar: AppBar(
-          title: const Text("Flutter Demo"),
-          actions: [
-            IconButton(
-              icon: const Icon(Icons.question_mark_rounded),
-              tooltip: 'Bantuan',
-              onPressed: () {
-                Navigator.pushNamed(context, '/test');
-              },
-            ),
-          ],
-
+      extendBodyBehindAppBar: true, // Stack Navbar
+      backgroundColor: CupertinoColors.systemGrey6,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        title: SvgPicture.asset(
+          'assets/images/LogoThreee.svg',
+          width: 25,
+          height: 25,
+          fit: BoxFit.contain, // test maybe need some work
         ),
-        body: ListView(
-          children: [
-            // test if empty
-            const Row(
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.question_mark_rounded),
+            color: Colors.white,
+            tooltip: 'Bantuan',
+            onPressed: () {
+              Navigator.pushNamed(context, '/test');
+            },
+          ),
+        ],
+      ),
+      body: Stack(
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 15),
+            child: ListView(
               children: [
-                Text('Hallo User ',
-                    style:
-                        TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-                Icon(Icons.waving_hand, color: Colors.orange),
-              ],
-            ),
-            const Text('Sudahkah Anda Presensi Hari Ini?'),
-            const SizedBox(height: 20),
+                const SizedBox(height: 30,),
 
-            // GridView dengan 1 item statis
-            GridView(
-              shrinkWrap: true, // Agar tidak mengambil seluruh tinggi layar
-              physics:
-                  const NeverScrollableScrollPhysics(), // Menghindari konflik scroll dengan ListView
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 1, // Hanya 1 kolom
-                mainAxisExtent:
-                    80, // Ini membatasi tinggi item agar lebih kecil
-              ),
-              children: [
-                Container(
-                  margin: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(10),
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Colors.black26,
-                        blurRadius: 5,
-                        offset: Offset(2, 4),
-                      ),
-                    ],
-                  ),
-                  padding: const EdgeInsets.all(2),
-                  child: const Center(
-                    child: Text(
-                      "Lorem Ipsum 23",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        shadows: [
-                          Shadow(
-                            blurRadius: 3,
-                            color: Colors.black26,
-                            offset: Offset(1, 1),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+                const SizedBox(height: 80,),
               ],
             ),
-          ],
-        ));
+          ),
+          Align(
+            alignment: Alignment.topCenter,
+            child: SvgPicture.asset(
+              'assets/images/Navbar.svg',
+              width: MediaQuery.of(context).size.width,
+              fit: BoxFit.contain,
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }

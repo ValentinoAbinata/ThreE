@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="360"
+   height="117"
+   viewBox="0 0 95.25 30.956298"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6"><rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1.31921"
+         id="rect7"
+         width="131.88055"
+         height="29.881947"
+         x="-55.646374"
+         y="-78.469528" /></clipPath></defs><g
+     id="g6"
+     clip-path="url(#clipPath6)"
+     transform="matrix(0.72454092,0,0,0.72454092,39.965067,56.972022)"><path
+       style="display:inline;opacity:0.25;fill:#2c655e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.31921"
+       d="m -1.6326364,-61.725423 c 0,0 127.5131964,22.273434 164.9244564,0 C 200.70308,-83.998858 50.822764,-159.05666 50.822764,-159.05666 l -55.999238,19.99973"
+       id="path4"
+       transform="translate(1.0894934e-6)" /><path
+       style="display:inline;opacity:0.5;fill:#2c655e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.31921"
+       d="m 76.587119,-56.646289 c 0,0 -49.999318,9.823397 -114.469031,-0.999986 -64.469708,-10.82338 -25.881999,-58.587435 -25.881999,-58.587435 l 146.115659,3.29407 24.234962,6.11756"
+       id="path2"
+       transform="translate(1.0894934e-6)" /><path
+       style="display:inline;opacity:0.7;fill:#2c655e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.31921"
+       d="m -14.941047,-60.940348 c 0,0 133.527597,17.176237 145.527427,0 11.99984,-17.176236 -73.646051,-64.234422 -73.646051,-64.234422 l -78.116585,10.82338"
+       id="path3" /><path
+       style="display:inline;fill:#2c655e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.31921"
+       d="m -55.852254,-55.808064 c 0,0 89.969362,-14.867444 152.086165,0 62.116799,14.867445 -81.881239,-79.484216 -81.881239,-79.484216 l -77.881294,14.11746"
+       id="path5"
+       transform="translate(1.2121231e-6)" /></g></svg>
